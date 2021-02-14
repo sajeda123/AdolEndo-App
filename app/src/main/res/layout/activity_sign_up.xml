@@ -1,0 +1,272 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#FAFAFA"
+    android:orientation="vertical"
+    android:padding="20dp"
+    tools:context=".SignUpActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <com.google.android.material.textfield.TextInputEditText
+            android:id="@+id/SignUpUserIdeEditTextId"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:background="#F2F2F2"
+            android:hint="  User ID"
+            android:padding="10dp"
+            android:shadowRadius="@android:integer/config_longAnimTime"
+            android:textColor="@color/black"
+            android:textColorHint="#BDBDBD" />
+
+        <com.google.android.material.textfield.TextInputEditText
+            android:id="@+id/SignUpNameEditTextId"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:background="#F2F2F2"
+            android:hint="  Name"
+            android:padding="10dp"
+            android:shadowRadius="@android:integer/config_longAnimTime"
+            android:textColor="@color/black"
+            android:textColorHint="#BDBDBD" />
+
+        <com.google.android.material.textfield.TextInputEditText
+            android:id="@+id/SignUpInsNameEditTextId"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:background="#F2F2F2"
+            android:hint="  Institution Name"
+            android:padding="10dp"
+            android:shadowRadius="@android:integer/config_longAnimTime"
+            android:textColor="@color/black"
+            android:textColorHint="#BDBDBD" />
+
+        <com.google.android.material.textfield.TextInputEditText
+            android:id="@+id/SignUpClassEditTextId"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:background="#F2F2F2"
+            android:hint="  Class"
+            android:padding="10dp"
+            android:shadowRadius="@android:integer/config_longAnimTime"
+            android:textColor="@color/black"
+            android:textColorHint="#BDBDBD" />
+
+        <com.google.android.material.textfield.TextInputEditText
+            android:id="@+id/SignUpSectionEditTextId"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:background="#F2F2F2"
+            android:hint="  Section"
+            android:padding="10dp"
+            android:shadowRadius="@android:integer/config_longAnimTime"
+            android:textColor="@color/black"
+            android:textColorHint="#BDBDBD" />
+
+        <com.google.android.material.textfield.TextInputEditText
+            android:id="@+id/SignUpRollEditTextId"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:background="#F2F2F2"
+            android:hint="  Roll Number"
+            android:padding="10dp"
+            android:shadowRadius="@android:integer/config_longAnimTime"
+            android:textColor="@color/black"
+            android:textColorHint="#BDBDBD" />
+
+        <com.google.android.material.textfield.TextInputEditText
+            android:id="@+id/SignUpEmailEditTextId"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:background="#F2F2F2"
+            android:hint="  Email"
+            android:padding="10dp"
+            android:shadowRadius="@android:integer/config_longAnimTime"
+            android:textColor="@color/black"
+            android:textColorHint="#BDBDBD" />
+
+        <com.google.android.material.textfield.TextInputEditText
+            android:id="@+id/SignUpMobileEditTextId"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:background="#F2F2F2"
+            android:hint="  Mobile Number"
+            android:padding="10dp"
+            android:shadowRadius="@android:integer/config_longAnimTime"
+            android:textColor="@color/black"
+            android:textColorHint="#BDBDBD" />
+
+        <com.google.android.material.textfield.TextInputEditText
+            android:id="@+id/SignUpTeacherEditTextId"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:background="#F2F2F2"
+            android:hint="  Name Of the Class Teacher"
+            android:padding="10dp"
+            android:shadowRadius="@android:integer/config_longAnimTime"
+            android:textColor="@color/black"
+            android:textColorHint="#BDBDBD" />
+
+        <com.google.android.material.textfield.TextInputEditText
+            android:id="@+id/SignUpTeacherMobileEditTextId"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:background="#F2F2F2"
+            android:hint="  Class Teacher’s mobile Number"
+            android:padding="10dp"
+            android:shadowRadius="@android:integer/config_longAnimTime"
+            android:textColor="@color/black"
+            android:textColorHint="#BDBDBD" />
+
+        <com.google.android.material.textfield.TextInputEditText
+            android:id="@+id/SignUpTeacherEmailEditTextId"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:background="#F2F2F2"
+            android:hint="  Class Teacher’s Email/WhatsApp"
+            android:padding="10dp"
+            android:shadowRadius="@android:integer/config_longAnimTime"
+            android:textColor="@color/black"
+            android:textColorHint="#BDBDBD" />
+
+        <com.google.android.material.textfield.TextInputEditText
+            android:id="@+id/SignUpGurdianNameEditTextId"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:background="#F2F2F2"
+            android:hint="  Name of Guardian"
+            android:padding="10dp"
+            android:shadowRadius="@android:integer/config_longAnimTime"
+            android:textColor="@color/black"
+            android:textColorHint="#BDBDBD" />
+
+        <com.google.android.material.textfield.TextInputEditText
+            android:id="@+id/SignUpGurdianlRelEditTextId"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:background="#F2F2F2"
+            android:hint="  Relationship with Guardian"
+            android:padding="10dp"
+            android:shadowRadius="@android:integer/config_longAnimTime"
+            android:textColor="@color/black"
+            android:textColorHint="#BDBDBD" />
+
+        <com.google.android.material.textfield.TextInputEditText
+            android:id="@+id/SignUpGurdianEmailEditTextId"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:background="#F2F2F2"
+            android:hint="  Gurdian’s Email/WhatsApp"
+            android:padding="10dp"
+            android:shadowRadius="@android:integer/config_longAnimTime"
+            android:textColor="@color/black"
+            android:textColorHint="#BDBDBD" />
+
+        <com.google.android.material.textview.MaterialTextView
+            android:id="@+id/signUpBirthTextview"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:background="#F2F2F2"
+            android:hint="  Date Of Birth"
+            android:padding="13dp"
+            android:shadowRadius="@android:integer/config_longAnimTime"
+            android:textColor="@color/black"
+            android:textColorHint="#BDBDBD"
+            android:textSize="17dp" />
+
+        <com.google.android.material.textfield.TextInputEditText
+            android:id="@+id/SignUpPasswordEditTextId"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:background="#F2F2F2"
+            android:hint="  Password"
+            android:inputType="textPassword"
+            android:padding="10dp"
+            android:shadowRadius="@android:integer/config_longAnimTime"
+            android:textColor="@color/black"
+            android:textColorHint="#BDBDBD" />
+
+        <com.google.android.material.textfield.TextInputEditText
+            android:id="@+id/SignUpConfirmEditTextId"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:background="#F2F2F2"
+            android:hint="  Confirm"
+            android:inputType="textPassword"
+            android:padding="10dp"
+            android:shadowRadius="@android:integer/config_longAnimTime"
+            android:textColor="@color/black"
+            android:textColorHint="#BDBDBD" />
+
+        <CheckBox
+            android:id="@+id/showHideBtn2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:fontFamily="sans-serif"
+            android:text="Show Password" />
+
+        <Button
+            android:id="@+id/SignUpButtonId"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:text="Register"
+            app:backgroundTint="#2E9AFE" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <TextView
+                android:id="@+id/SignUpTextViewId"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Already an Account? "
+                android:textColor="#000000"
+                android:textSize="16dp" />
+
+            <TextView
+                android:id="@+id/SigninUp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Sign in"
+                android:textColor="#2E9AFE"
+                android:layout_marginBottom="10dp"
+                android:textSize="17dp" />
+        </LinearLayout>
+
+        <ProgressBar
+            android:id="@+id/ProgreassBarId"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:visibility="gone" />
+
+    </LinearLayout>
+
+</ScrollView>

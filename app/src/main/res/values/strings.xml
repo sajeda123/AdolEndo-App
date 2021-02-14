@@ -1,0 +1,24 @@
+<resources>
+    <string name="app_name">AdolEndo</string>
+    <string name="Open">AdolEndo</string>
+    <string name="Close">AdolEndo</string>
+    <string name="title1"><u>Symptoms Of Endometriosis</u></string>
+    <string name="title2"><u>Causes Of Endometriosis</u></string>
+    <string name="title3"><u>Risk Factors Of Endometriosis</u></string>
+    <string name="open">open</string>
+    <string name="close">close</string>
+    <string-array name="Range">
+        <item>8</item>
+        <item>9</item>
+        <item>10</item>
+        <item>11</item>
+        <item>12</item>
+        <item>13</item>
+        <item>14</item>
+        <item>15</item>
+        <item>16</item>
+        <item>17</item>
+    </string-array>
+
+
+</resources>

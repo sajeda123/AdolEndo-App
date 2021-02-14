@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_margin="10dp">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+        <TextView
+            android:textStyle="bold"
+            android:textColor="@color/black"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Participant's Code  :"/>
+
+        <EditText
+            android:textStyle="bold"
+            android:textColor="@color/black"
+            android:layout_width="240dp"
+            android:layout_height="wrap_content"/>
+
+    </LinearLayout>
+
+    <TextView
+        android:textStyle="bold"
+        android:textColor="@color/black"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="As Salamu’Alaikum"/>
+    <TextView
+        android:textColor="@color/black"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="You are invited to participate in a study conducted by the Endometriosis Society of Bangladesh. It is an institution of gynecologists.Menstruation is a normal physical process in the life ofevery girl.A number  of  teenage  girls  experience  abnormal  pain  in  the  lower  abdomen  during  menstruation.In future, this pain may lead to the symptoms of a disease called Endometriosis. This pain may increase her  physical  and  mental  sufferings  day by  day  that  could  cause  harm  to  her  reproductive  life, academic studies, professional activities etc.The research is aimed at raising awareness. The purpose of  this research  is to collect  information  about  lower abdominal  pain  during  menstruation. Thisresearchwill  ask  you  some  questions  about  menstrual  health  and  lower  abdominal  pain  during menstruation. If necessary, your disease might be diagnosed through ultrasound in lower abdomen and there is no risk toyourphysicalandmental health.Based on the information gathered from this research, an awareness program will be conducted at later time under the leadership of a team of gynecologists.However, you can withdraw yourself from this studywhenever you want.You will neverlikely to  takeany physicaland mental risk for participatingin  this study. All of your information  will  remain  strictly  confidential.The  results  of  this  research  will  make  your  future  life happier,  ensure  your  reproductive  health  and  will  also  help  to  protect  the  health  of  all women  in Bangladesh and abroad."/>
+    <TextView
+        android:textStyle="bold"
+        android:layout_marginTop="10dp"
+        android:textColor="@color/black"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Are you willing to take part in this Research?"/>
+
+    <CheckBox
+        android:id="@+id/chkYes"
+        android:layout_width="wrap_content"
+        android:layout_height="38dp"
+        android:layout_marginLeft="100dp"
+        android:onClick="onCheckboxClicked"
+        android:text="Yes" />
+
+    <CheckBox
+        android:id="@+id/chkNo"
+        android:layout_width="wrap_content"
+        android:layout_height="30dp"
+        android:layout_marginLeft="100dp"
+        android:onClick="onCheckboxClicked"
+        android:text="No" />
+</LinearLayout>

@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_gravity="center"
+    android:orientation="vertical"
+    android:padding="20dp"
+    tools:context=".MainActivity">
+
+    <com.google.android.material.textfield.TextInputEditText
+        android:layout_height="wrap_content"
+        android:layout_width="match_parent"
+        android:padding="10dp"
+        android:hint="  Email"
+        android:textColorHint="#BDBDBD"
+        android:background="#F2F2F2"
+        android:textColor="#000"
+        android:shadowRadius="@android:integer/config_longAnimTime"
+        android:id="@+id/SignInEmailEditTextId"
+        />
+    <com.google.android.material.textfield.TextInputEditText
+        android:layout_height="wrap_content"
+        android:layout_width="match_parent"
+        android:padding="10dp"
+        android:hint="  Password"
+        android:inputType="textPassword"
+        android:layout_marginTop="10dp"
+        android:textColor="#000"
+        android:background="#F2F2F2"
+        android:textColorHint="#BDBDBD"
+        android:shadowRadius="@android:integer/config_longAnimTime"
+        android:id="@+id/SignInPasswordEditTextId"
+        />
+    <CheckBox
+        android:id="@+id/showHideBtn1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:fontFamily="sans-serif"
+        android:text="Show Password" />
+
+    <Button
+        android:id="@+id/SignInButtonId"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:text="Log in"
+        app:backgroundTint="#2E9AFE" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/ForgetPassword"
+        android:textColor="#2E9AFE"
+        android:textSize="14dp"
+        android:fontFamily="sans-serif"
+        android:layout_marginTop="10dp"
+        android:text="Forgot Password?"
+        />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="@color/black"
+        android:textSize="14dp"
+        android:gravity="center"
+        android:fontFamily="sans-serif"
+        android:layout_marginTop="5dp"
+        android:text="____________________ Or _____________________"
+        />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/SignInTextViewId"
+        android:textColor="#FFFFFF"
+        android:textSize="14dp"
+        android:background="#04B431"
+        android:fontFamily="sans-serif"
+        android:layout_marginTop="20dp"
+        android:layout_gravity="center"
+        android:padding="10dp"
+        android:text="Create New Account"
+        />
+
+    <ProgressBar
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:visibility="gone"
+        android:layout_gravity="center"
+        android:id="@+id/ProgreassBarId"
+        />
+
+</LinearLayout>
