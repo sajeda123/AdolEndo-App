@@ -3,12 +3,12 @@ Application name "AdolEndo"
 
 Main purpose of the application"Early detection of Endometriosis in Adolescents of Bangladesh "
 
-Problem Statement
+Problem Statement:
 Endometriosis is a gynecological condition, which affects about one-fifth adolescent girls globally, and has a substantial adverse impact on their reproductive health and quality of life. It is characterized by the presence of endometrial tissue outside the uterine cavity. The most Common presenting symptoms of endometriosis include chronic pelvic pain. Sub fertility, irregular menstrual bleeding, dyspareunia, dysmenorrheal, gastrointestinal, urinary symptoms and mood disorders are associated with Endometriosis. In Bangladesh, there are 12 lac patients suffering from it. There is a low level of awareness and education regarding endometriosis among the adolescent school girls which frequently results in delayed diagnosis and progression of the disease with complications.
 
 Endometriosis is a complex and painful problem. Endometriosis significantly affects reproductive health and increases the risk of future infertility as well as it severely hampers academic life, professional life and a girl’s married life. 
 
-Solution
+Solution:
 The app will track, process and report all activities related to diagnostic, counseling and awareness initiatives conducted by treatment professionals to prevent endometriosis.
 
 Diagnostic: 
